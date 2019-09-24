@@ -29,6 +29,7 @@ def getHtmlList(url):
         return None
 
 
+# 爬取每个目录文章的内容，由于在笔趣阁的书中，每个目录的的内容格式是几乎一样的。
 def getHtmlContent(url):
     txt = requests.get(url, headers=headers)
     txt.encoding = txt.apparent_encoding
@@ -38,6 +39,7 @@ def getHtmlContent(url):
         return None
 
 
+# 用Beautifulsoup解析爬取的内容，注意"\xa0"。
 def parse_content(txt):
     soup = BeautifulSoup(txt, 'lxml')
     div = soup.find_all('div', class_='showtxt')
@@ -45,6 +47,7 @@ def parse_content(txt):
     return text
 
 
+# 保存
 def save_text(text, path):
     with open("./极品家丁/{}.txt".format(path), "w", encoding="utf-8") as f:
         f.writelines(text)

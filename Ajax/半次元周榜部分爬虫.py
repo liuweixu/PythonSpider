@@ -1,9 +1,12 @@
-#encoding='utf-8'
+# encoding='utf-8'
 import requests
 from urllib.parse import urlencode
 from bs4 import BeautifulSoup
+
 links = []
 base_url = "https://bcy.net/apiv3/rank/list/itemInfo?"
+
+
 def getHTMLText(page):
     headers = {
         "accept": "*/*",
@@ -14,23 +17,25 @@ def getHTMLText(page):
         (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
     }
     params = {
-        'p':page,
-        'ttype':'illust',
-        'sub_type':'week',
-        'date':'20190923'
+        'p': page,
+        'ttype': 'illust',
+        'sub_type': 'week',
+        'date': '20190923'
     }
     url = base_url + urlencode(params)
-    txt = requests.get(url, headers=headers, timeout = 50)
+    txt = requests.get(url, headers=headers, timeout=50)
     if txt.status_code == 200:
-        return txt.json() # TODO
+        return txt.json()  # TODO
     else:
         return None
+
 
 def Soup(txt):
     soup = BeautifulSoup(txt, 'lxml')
     soup_str = soup.prettify()
     soup = BeautifulSoup(soup_str, 'lxml')
     return soup
+
 
 def parse_page(json):
     if json:
@@ -39,12 +44,15 @@ def parse_page(json):
             for item in ls:
                 links.append(item['path'])
 
+
 def Image_save(links, num):
-    for i in range(1, num+1):
-        html = requests.get(links[i-1])
+    for i in range(1, num + 1):
+        html = requests.get(links[i - 1])
         with open("./Image/{}.jpg".format(i), "wb") as f:
             f.write(html.content)
-if __name__=="__main__":
+
+
+if __name__ == "__main__":
     for page in range(1, 4):
         json = getHTMLText(page)
         parse_page(json)

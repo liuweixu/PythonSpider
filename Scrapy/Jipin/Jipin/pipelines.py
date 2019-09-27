@@ -6,6 +6,7 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 import os
 
+
 class JipinPipeline(object):
     def process_item(self, item, spider):
         try:

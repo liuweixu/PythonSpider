@@ -11,6 +11,8 @@ import scrapy
 class BingPipeline(ImagesPipeline):
     # def process_item(self, item, spider):
     #     return item
+
+    # 用来确定图片的文件名。
     def file_path(self, request, response=None, info=None):
         # 由于标题过长，会分成自动分成两半，前面的部作为文件夹的名字，后面的部分作为图片的名字。
         # 所以，我们有必要进行删除一些不必要的名字的部分，可以发现，这些标题基本是在后面有一个括号，我们可以删去

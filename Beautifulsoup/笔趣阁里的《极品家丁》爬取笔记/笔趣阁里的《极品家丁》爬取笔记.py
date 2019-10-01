@@ -11,7 +11,7 @@ list_title = []
 target = "https://www.biqukan.com"
 
 
-# 爬取笔趣阁的《极品家丁》的目录页
+# 爬取笔趣看的《极品家丁》的目录页
 def getHtmlList(url):
     text = requests.get(url, headers=headers)
     text.encoding = text.apparent_encoding
@@ -29,7 +29,7 @@ def getHtmlList(url):
         return None
 
 
-# 爬取每个目录文章的内容，由于在笔趣阁的书中，每个目录的的内容格式是几乎一样的。
+# 爬取每个目录文章的内容，由于在笔趣看的书中，每个目录的的内容格式是几乎一样的。
 def getHtmlContent(url):
     txt = requests.get(url, headers=headers)
     txt.encoding = txt.apparent_encoding

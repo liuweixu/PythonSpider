@@ -12,4 +12,10 @@
   - [Bilibili新番表爬虫](https://github.com/liuweixu/Python-crawler/tree/master/Ajax/Bilibili新番表爬虫)
   - [半次元周榜部分爬虫](https://github.com/liuweixu/Python-crawler/tree/master/Ajax/半次元周榜部分爬虫)
 - Scrapy
-  - []
+  - [Scrapy爬取Bing美图](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/Bing美图/Bing)
+  - [b站画友的最热图片](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/b站画友的最热图)
+  - [半次元的周榜上的封面图](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/半次元的周榜上的封面图)
+  - [唯1图片的动漫美女图片下载](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/唯1图片的动漫美女图片下载)
+  - [对scrapyd爬虫实验网站的爬虫](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/对scrapyd爬虫实验网站的爬虫)
+  - [火熊网图片爬取下载](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/火熊网图片爬取下载)（这个涉及到表单的提交，个人认为这个比较重要）
+  - [爬取《极品家丁》小说](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/爬取《极品家丁》小说) （笔趣看的小说）

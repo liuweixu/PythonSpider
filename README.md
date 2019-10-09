@@ -37,3 +37,4 @@
   - [对scrapyd爬虫实验网站的爬虫](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/对scrapyd爬虫实验网站的爬虫)
   - [火熊网图片爬取下载](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/火熊网图片爬取下载)（这个涉及到表单的提交，个人认为这个比较重要）
   - [爬取《极品家丁》小说](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/爬取《极品家丁》小说) （笔趣看的小说）
+  - [爬取阳光高考网的院校库的大学信息](https://github.com/liuweixu/Python-crawler/tree/master/Scrapy/爬取阳光高考网的大学信息/gaokao) （scrapy和openpyxl相结合，涉及到open_spider()和close_spider()的用法）

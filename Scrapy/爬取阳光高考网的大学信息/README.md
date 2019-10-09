@@ -1,0 +1,1 @@
+数据源于阳光高考网的[院校库](https://gaokao.chsi.com.cn/sch/search.do?searchType=1&start=0)，里面涉及这scrapy爬取，利用openpyxl库把数据保存到xlsx文件。

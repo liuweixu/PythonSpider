@@ -37,6 +37,8 @@
   
   - [教育部第四轮评估爬取](https://github.com/liuweixu/Python-crawler/tree/master/Ajax/%E6%95%99%E8%82%B2%E9%83%A8%E7%AC%AC%E5%9B%9B%E8%BD%AE%E8%AF%84%E4%BC%B0)
   
+  - [股票历史数据](https://github.com/liuweixu/Python-crawler/tree/master/Ajax/%E8%82%A1%E7%A5%A8%E6%95%B0%E6%8D%AE%E7%88%AC%E5%8F%96) （涉及到字典的使用）
+  
     
   
 - Scrapy

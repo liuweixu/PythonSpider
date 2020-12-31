@@ -22,12 +22,15 @@
   
     
   
-- Ajax处理
+- Ajax处理（需要在开发者工具中选择network的XHR或JS，找到符合条件的网址，一般内容为json格式）
+  
   - [Bilibili新番表爬虫](https://github.com/liuweixu/Python-crawler/tree/master/Ajax/Bilibili新番表爬虫)
   
   - [半次元周榜部分爬虫](https://github.com/liuweixu/Python-crawler/tree/master/Ajax/半次元周榜部分爬虫)
   
   - [疫情数据爬取（国外数据），截止到2020年12月30日](https://github.com/liuweixu/Python-crawler/tree/master/Ajax/%E7%99%BE%E5%BA%A6%E7%96%AB%E6%83%85%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE%E7%88%AC%E5%8F%96%E5%B9%B6%E5%8F%AF%E8%A7%86%E5%8C%96%EF%BC%88%E5%9B%BD%E5%A4%96%E6%95%B0%E6%8D%AE%EF%BC%89)
+  
+  - [教育部第四轮评估爬取](https://github.com/liuweixu/Python-crawler/tree/master/Ajax/%E6%95%99%E8%82%B2%E9%83%A8%E7%AC%AC%E5%9B%9B%E8%BD%AE%E8%AF%84%E4%BC%B0)
   
     
   

@@ -2,10 +2,15 @@
 
 ##### 此处是我的爬虫的学习和实践的整理，部分程序有相应的笔记
 
-- BeautifulSoup4的使用
+##### 如果发现爬取失败的问题，可以发邮箱：liuweixu2018@gmail.com 或 wei_xu_liu@163.com，这样我可以及时地收到消息。
+
+- #### BeautifulSoup4的使用
+  
   - [百度贴吧一个投票贴的票数统计](https://github.com/liuweixu/Python-crawler/tree/master/Beautifulsoup/百度贴吧一个投票贴的票数统计)
   
   - [笔趣阁里的《极品家丁》爬取笔记](https://github.com/liuweixu/Python-crawler/tree/master/Beautifulsoup/笔趣阁里的《极品家丁》爬取笔记)
+  
+  - [高考一分一段表爬取](https://github.com/liuweixu/Python-crawler/tree/master/Beautifulsoup/%E9%AB%98%E8%80%83%E4%B8%80%E5%88%86%E4%B8%80%E6%AE%B5%E7%88%AC%E5%8F%96)
   
     
   

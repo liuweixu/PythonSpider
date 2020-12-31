@@ -27,6 +27,8 @@
   
   - [半次元周榜部分爬虫](https://github.com/liuweixu/Python-crawler/tree/master/Ajax/半次元周榜部分爬虫)
   
+  - [疫情数据爬取（国外数据），截止到2020年12月30日]([Python-crawler/Ajax/百度疫情实时数据爬取并可视化（国外数据） at master · liuweixu/Python-crawler (github.com)](https://github.com/liuweixu/Python-crawler/tree/master/Ajax/百度疫情实时数据爬取并可视化（国外数据）))
+  
     
   
 - Scrapy

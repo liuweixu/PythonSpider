@@ -1,8 +1,12 @@
-### Liu Weixu's Python Spider Program
+## Liu Weixu's Python Spider Program
 
-##### 此处是我的爬虫的学习和实践的整理，部分程序有相应的笔记
+### 此处是我的爬虫的学习和实践的整理，部分程序有相应的笔记
+
+### 注：
 
 ##### 如果发现爬取失败的问题，可以发邮箱：liuweixu2018@gmail.com 或 wei_xu_liu@163.com，这样我可以及时地收到消息。
+
+##### 如果碰上jupyter notebook文件不能加载的问题，可以登上[nbviewer (jupyter.org)](https://nbviewer.jupyter.org/) ，然后输入github上的jupyter文件的url，就可以看到文件的内容。
 
 - #### BeautifulSoup4的使用
 
